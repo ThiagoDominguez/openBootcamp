@@ -1,0 +1,22 @@
+{
+  "name": "openbootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoDominguez/openBootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoDominguez/openBootcamp/issues"
+  },
+  "homepage": "https://github.com/ThiagoDominguez/openBootcamp#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
