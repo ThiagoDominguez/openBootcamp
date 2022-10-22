@@ -12,3 +12,10 @@ const libro = {
   fecha: new Date(),
   url: "https://github.com/ThiagoDominguez",
 };
+
+// Esto va por fuera del ejercicio de OpenBootCamp
+console.log(libro);
+
+for (const key in libro) {
+  console.log(`${key}: ${libro[key]}`);
+}
