@@ -12,4 +12,4 @@ let lettersEstudiante = estudiante.length;
 let firstLetterName = name[0];
 let lastLetterLastName = lastName[lastName.length - 1];
 let estudianteNoSpace = name.trim() + lastName.trim();
-let IsName = estudiante.includes("Thiago");
+let IsName = estudiante.includes(name);
