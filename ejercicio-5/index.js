@@ -10,4 +10,4 @@ let peso_floor = Math.floor(peso);
 
 let max = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
 
-console.log(max);
+console.log(altura_round);
