@@ -1,17 +1,14 @@
-const datosPers = [
-  {
-    nombre: "Thiago",
-    apellido: "Dominguez",
-    edad: 21,
-    altura: 1.71,
-    isDeveloper: true,
-  },
-];
-
+const datosPers = {
+  nombre: "Thiago",
+  apellido: "Dominguez",
+  edad: 21,
+  altura: 1.71,
+  isDeveloper: true,
+};
 let edad = datosPers.edad;
 
 const datosFriends = [
-  ...datosPers,
+  { ...datosPers },
   {
     nombre: "Nazaret",
     apellido: "Capará",
