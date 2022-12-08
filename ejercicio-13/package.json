@@ -1,0 +1,23 @@
+{
+  "name": "openbootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint-fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoDominguez/openBootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoDominguez/openBootcamp/issues"
+  },
+  "homepage": "https://github.com/ThiagoDominguez/openBootcamp#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
