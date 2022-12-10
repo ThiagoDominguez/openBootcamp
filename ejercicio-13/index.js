@@ -1,6 +1,6 @@
 let name = "Thiago ";
 
-let lastName = "Dominguez ";
+let lastName = "Dominguez";
 
 let estudiante = `${name} ${lastName}`;
 
