@@ -1,0 +1,17 @@
+.seccion {
+  background-color: #222;
+  padding: 1rem;
+  margin: 1rem;
+}
+.seccion .papelera {
+  background-color: #fff;
+}
+
+.parrafo {
+  background-color: darkgray;
+  padding: 1rem;
+  color: #f0f0f0;
+}
+.parrafo .dragging {
+  opacity: 0.1;
+}
