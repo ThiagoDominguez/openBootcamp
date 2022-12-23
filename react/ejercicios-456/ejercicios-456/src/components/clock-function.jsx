@@ -25,7 +25,7 @@ export const ClockFunction = () => {
       <h3>
         {dato.nombre} {dato.apellido}
       </h3>
-      <h1>{dato.edad}</h1>
+      <h1>Edad:{dato.edad}</h1>
     </div>
   );
   function tick() {
