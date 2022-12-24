@@ -17,15 +17,15 @@ export const ClockFunction = () => {
     };
   }, []);
   return (
-    <div>
-      <h2>
+    <div className="container-time">
+      <h2 className="container-hour">
         Hora actual:
         {dato.fecha.toLocaleTimeString()}
       </h2>
-      <h3>
+      <h3 className="container-info">
         {dato.nombre} {dato.apellido}
       </h3>
-      <h1>Edad:{dato.edad}</h1>
+      <h1 className="container-age">Edad:{dato.edad}</h1>
     </div>
   );
   function tick() {

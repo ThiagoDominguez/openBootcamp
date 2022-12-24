@@ -1,4 +1,7 @@
 import logo from "./logo.svg";
+// ? Importando estilos scss
+import "./styles/app.scss";
+// ! El estilo del preprocesador sass/scss debe estar por encima del css
 import "./App.css";
 import Clock from "./components/clock-class";
 import { ClockFunction } from "./components/clock-function";
