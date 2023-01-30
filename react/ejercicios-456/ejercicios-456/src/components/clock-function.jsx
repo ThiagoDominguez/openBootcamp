@@ -7,7 +7,6 @@ export const ClockFunction = () => {
     apellido: "Dominguez",
     edad: 21,
   };
-
   const [dato, setDato] = useState(datos);
 
   useEffect(() => {
