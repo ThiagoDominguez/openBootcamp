@@ -15,19 +15,19 @@ const TaskComponent = ({ task, complete, remove }) => {
     switch (task.level) {
       case LEVELS.NORMAL:
         return (
-          <h6 className="mb-0">
+          <h6 className="mb-0" style={{ paddingBottom: "1rem" }}>
             <span className="badge bg-primary">{task.level}</span>
           </h6>
         );
       case LEVELS.URGENTE:
         return (
-          <h6 className="mb-0">
+          <h6 className="mb-0" style={{ paddingBottom: "1rem" }}>
             <span className="badge bg-warning">{task.level}</span>
           </h6>
         );
       case LEVELS.BLOQUEANTE:
         return (
-          <h6 className="mb-0">
+          <h6 className="mb-0" style={{ paddingBottom: "1rem" }}>
             <span className="badge bg-danger">{task.level}</span>
           </h6>
         );
@@ -42,7 +42,7 @@ const TaskComponent = ({ task, complete, remove }) => {
         <i
           onClick={() => complete(task)}
           className="bi-toggle-on task-action"
-          style={{ color: "green", fontSize: "large" }}
+          style={{ color: "green", fontSize: "1.5rem" }}
         ></i>
       );
     } else {
@@ -50,7 +50,7 @@ const TaskComponent = ({ task, complete, remove }) => {
         <i
           onClick={() => complete(task)}
           className="bi-toggle-off task-action"
-          style={{ color: "gray", fontSize: "large" }}
+          style={{ color: "gray", fontSize: "1.5rem" }}
         ></i>
       );
     }
@@ -73,7 +73,7 @@ const TaskComponent = ({ task, complete, remove }) => {
         <i
           onClick={() => remove(task)}
           className="bi-trash task-action"
-          style={{ color: "red", fontSize: "large" }}
+          style={{ color: "red", fontSize: "1.5rem" }}
         ></i>
       </td>
     </tr>

@@ -10,6 +10,7 @@ import "./App.css";
 // import Greeting from "./components/pure/greeting";
 // import Funcgreeting from "./components/pure/func-greeting";
 import TaskListComponent from "./components/containers/task_list";
+import TasksPages from "./pages/tasks/TasksPages";
 // import { Father } from "./components/containers/father";
 // import { GreetingStyled } from "./components/pure/greetingStyled";
 // import { Ejemplo1 } from "./hooks/ejemplo1";
@@ -23,7 +24,8 @@ function App() {
       {/* //?PRIMER COMPONENTE FUNCIONAL */}
       {/* <Funcgreeting name="Thiago"></Funcgreeting> */}
       {/* //? Componente del proyecto */}
-      <TaskListComponent></TaskListComponent>
+      {/* <TaskListComponent></TaskListComponent> */}
+      <TasksPages></TasksPages>
       {/* <Ejemplo1></Ejemplo1> */}
       {/* <Ejemplo2></Ejemplo2> */}
       {/* <ComponenteContexto></ComponenteContexto> */}

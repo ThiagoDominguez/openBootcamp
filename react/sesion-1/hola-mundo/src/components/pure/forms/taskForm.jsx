@@ -24,7 +24,7 @@ const TaskForm = ({ add }) => {
   return (
     <form
       onSubmit={addTarea}
-      className="d-flex justify-content-center align-items-center mb-4"
+      className="d-flex justify-content-center align-items-center mb-4 p-2"
     >
       <div className="form-outline flex-fill ">
         <input
